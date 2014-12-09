@@ -1,0 +1,36 @@
+// COLORS
+//------------------------------------
+
+@grey:					#9d9c9c;
+@light-grey: 			#eeeeee;
+@dark-grey:				#707070;
+@white: 			   	#ffffff;
+@black: 				#000000;
+
+// TYPOGRAPHY
+//------------------------------------
+@font: "Montserrat", "Century Gothic", Raleway, Helvetica, sans-serif;
+
+@base-font-size: 15px;
+@h2-font-size: @base-font-size + 45; // 60
+@h2-font-size-home: @base-font-size + 12; // 25
+@h3-font-size: @base-font-size + 13; // 26
+@h4-font-size: @base-font-size + 5; // 20
+
+@blurb-font-size: @base-font-size + 1; //16
+@tiny-font-size: @base-font-size - 3; // 12
+
+// GRID VALUES
+//------------------------------------
+// Change this values to change the size of the grid
+
+// 1170px grid width
+@column-width: 68;
+@gutter-width: 32;
+@columns: 12;
+
+// Utility variable — you should never need to modify this
+@gridsystem-width: (@column-width * @columns) + (@gutter-width * @columns) * 1px; // = 1680
+
+// Set @total-width to 100% for a fluid layout
+@total-width: 100%;
